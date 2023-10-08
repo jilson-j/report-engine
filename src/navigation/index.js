@@ -5,11 +5,11 @@ import Register from "../pages/Register/Register";
 const router=createBrowserRouter([
     {
         path:'/',
-        element:<Home/>
+        element:<Register/>
     },
     {
-        path:'/register',
-        element:<Register/>
+        path:'/home',
+        element:<Home/>
     }
 ])
 
